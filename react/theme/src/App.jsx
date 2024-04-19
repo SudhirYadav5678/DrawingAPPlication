@@ -7,10 +7,10 @@ import Buttomthm from './components/Buttomthm'
 function App() {
   const {thememode,setThememode}= useState("light")
   const darkTheme= ()=>{
-    setThememode("dark")
+    return setThememode("dark")
   }
   const lightTheme= ()=>{
-    setThememode("light")
+    return setThememode("light")
 }
 // actual change in theme 
 useEffect(()=>{
